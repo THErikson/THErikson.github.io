@@ -1,0 +1,83 @@
+*{
+    background-color: black;
+    color: lightgray;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 16pt;
+}
+.fs-primary{
+    font-size: 16pt;
+}
+.fs-secondary{
+    font-size: 14pt;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+h3{
+    text-align: start;
+    color: white;
+}
+ul, li, p{
+    text-align: left;
+}
+img{
+    height: 300pt;
+    max-width: 100%;
+}
+.large-image{
+    height: 600pt;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 25px;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li {
+   display: inline-block; 
+   padding: 0px 20px;
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: lightblue;
+}
+button{
+    padding: 10px 25px;
+    background-color: darkgrey;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+logo{
+    padding: 10px 25px;
+    background-color: white;
+    color: black;
+    border: 50px;
+    transition: all 0.3s ease 0s;
+}
+.home-button{
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    text-align: start;
+    display: flex;
+}
+.home-button:hover{
+    color: lightblue;
+}
