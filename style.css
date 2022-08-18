@@ -17,6 +17,13 @@ header{
     align-items: center;
     padding: 50px 10%;
 }
+logo{
+    padding: 10px 25px;
+    background-color: white;
+    color: black;
+    border: 50px;
+    transition: all 0.3s ease 0s;
+}
 h1{
     color: white;
 }
@@ -36,6 +43,11 @@ img{
 }
 .large-image{
     height: 600pt;
+}
+.front-image{
+    max-height: 350pt;
+    height: auto;
+    margin: auto;
 }
 .container{
     display: grid;
@@ -64,13 +76,6 @@ button{
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
-logo{
-    padding: 10px 25px;
-    background-color: white;
-    color: black;
-    border: 50px;
-    transition: all 0.3s ease 0s;
-}
 .home-button{
     cursor: pointer;
     transition: all 0.3s ease 0s;
@@ -80,4 +85,12 @@ logo{
 }
 .home-button:hover{
     color: lightblue;
+}
+.slide-caption{
+    border: 2pt solid;
+    border-color: gray; 
+    height: min-content;
+    max-height: 50%;
+    width: 300pt;
+    padding: 15pt;
 }
